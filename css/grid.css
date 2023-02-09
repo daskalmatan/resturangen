@@ -1,0 +1,258 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    
+    .div1 {
+      grid-area: 1 / 1 / 2 / 4;
+      text-align: center;
+      font-size: 24px;
+      background-color:#e6e6e6;
+      border-radius: 30px;
+      padding: 10px;
+    }
+    .div2 {
+      grid-area: 2 / 1 / 3 / 2;
+     
+      text-align: center;
+      padding: 14px 5px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div3 {
+      grid-area: 2 / 2 / 3 / 3;
+     
+      text-align: center;
+      padding: 14px 5px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div4 {
+      grid-area: 2 / 3 / 3 / 4;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div5 {
+      grid-area: 3 / 1 / 4 / 2;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div6 {
+      grid-area: 3 / 2 / 4 / 3;
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div7 {
+      grid-area: 3 / 3 / 4 / 4;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div8 {
+      grid-area: 4 / 1 / 5 / 4;
+      text-align: center;
+       font-size: 24px;
+      background-color:#e6e6e6;
+      border-radius: 30px;
+      padding: 10px;
+    }
+    .div9 {
+      grid-area: 5 / 1 / 6 / 2;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div10 {
+      grid-area: 5 / 2 / 6 / 3;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div11 {
+      grid-area: 5 / 3 / 6 / 4;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div12 {
+      grid-area: 6 / 1 / 7 / 2;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div13 {
+      grid-area: 6 / 2 / 7 / 3;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div14 {
+      grid-area: 6 / 3 / 7 / 4;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div15 {
+      grid-area: 7 / 1 / 8 / 4;
+      text-align: center;
+       font-size: 24px;
+      background-color:#e6e6e6;
+      border-radius: 30px;
+      padding: 10px;
+    }
+    .div16 {
+      grid-area: 8 / 1 / 9 / 2;
+     
+      text-align: center;
+      padding: 14px  ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div17 {
+      grid-area: 8 / 2 / 9 / 3;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div18 {
+      grid-area: 8 / 3 / 9 / 4;
+     
+      text-align: center;
+      padding: 10px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div19 {
+      grid-area: 9 / 1 / 10 / 2;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div20 {
+      grid-area: 9 / 2 / 10 / 3;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div21 {
+      grid-area: 9 / 3 / 10 / 4;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    .div22 {
+      grid-area: 10 / 1 / 11 / 2;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+     
+    }
+    .div23 {
+      grid-area: 10 / 3 / 11 / 4;
+     
+      text-align: center;
+      padding: 14px ;
+      font-size: 16px;
+      color: #fff;
+      background-color: #778899;
+      border-radius: 10px;
+    }
+    
+    .div2:hover {background-color: black;}
+    .div3:hover {background-color: black;}
+    .div4:hover {background-color: black;}
+    .div5:hover {background-color: black;}
+    .div6:hover {background-color: black;}
+    .div7:hover {background-color: black;}
+    
+    .div9:hover {background-color: black;}
+    .div10:hover {background-color: black;}
+    .div11:hover {background-color: black;}
+    .div12:hover {background-color: black;}
+    .div13:hover {background-color: black;}
+    .div14:hover {background-color: black;}
+         
+    .div16:hover {background-color: black;}
+    .div17:hover {background-color: black;}
+    .div18:hover {background-color: black;}
+    .div19:hover {background-color: black;}
+    .div20:hover {background-color: black;}
+    .div21:hover {background-color: black;}
+    
+    .div22:hover {background-color: green;}
+    .div23:hover {background-color: red;}
+    
+    
